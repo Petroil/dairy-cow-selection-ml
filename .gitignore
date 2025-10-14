@@ -1,0 +1,17 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/*
+
+# Дополнительно для Python/ML проектов:
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+installed.cfg
+*.egg
+.DS_Store

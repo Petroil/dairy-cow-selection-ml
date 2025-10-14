@@ -1,8 +1,8 @@
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb_checkpoints/*
+*.ipynb_checkpoints/
 
-# Дополнительно для Python/ML проектов:
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -11,7 +11,13 @@ __pycache__/
 env/
 venv/
 .venv/
-*.egg-info/
-installed.cfg
-*.egg
+
+# Данные (опционально)
+data/raw/
+data/processed/
+*.csv
+*.pkl
+
+# Логи и системные файлы
 .DS_Store
+Thumbs.db
